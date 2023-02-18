@@ -640,26 +640,33 @@ nav {
     }
 }
 
-@media (max-height: 421px) {
-    .pop-main-img {
-        margin-top: 100px;
-    }
-}
 
-@media (max-height: 350px) {
+@media (max-height: 600px) {
     .pop-main-img {
         margin-top: 200px;
     }
 }
 
-@media (max-height: 250px) {
+@media (max-height: 445px) {
     .pop-main-img {
         margin-top: 300px;
     }
 }
-@media (max-height: 150px) {
+
+@media (max-height: 350px) {
     .pop-main-img {
         margin-top: 400px;
+    }
+}
+
+@media (max-height: 255px) {
+    .pop-main-img {
+        margin-top: 500px;
+    }
+}
+@media (max-height: 153px) {
+    .pop-main-img {
+        margin-top: 600px;
     }
 }
 
