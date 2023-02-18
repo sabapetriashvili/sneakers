@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div class="wrap"></div>
+  <nav> 
+
+     <img id="logo" src="images/logo.svg" alt="Sneakers">
+
+     <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+     <ul class="menu">
+       <li>Collections</li>
+       <li>Men</li>
+       <li>Women</li>
+       <li>About</li>
+       <li>Contact</li>
+     </ul>
+
+
+
+<div class="user-info">
+
+<div class="checklist">
+  <img src="images/icon-cart.svg" id="checklist-logo" alt="checklist"><span id="check-count">0</span>
+
+  <div class="checkout visible">
+
+    <div class="check-title">
+      <h4>Cart</h4>
+    </div>
+    <h5 id="empty-message">Your cart is empty.</h5>
+<div class="items-content">
+  </div>
+    <button class="checkout-btn">Checkout</button>
+  </div>
+
+</div>
+
+<div class="user">
+  <img src="images/image-avatar.png" alt="User">
+</div>
+
+</div>
+
+</nav>
+
+<div class="product">
+
+  <div class="prod-visual">
+    <img src="images/image-product-1.jpg" id="main-img" alt="Fall Limited Edition Sneakers">
+
+    <div class="thumbnail">
+      <img src="images/image-product-1.jpg" class="active">
+      <img src="images/image-product-2.jpg">
+      <img src="images/image-product-3.jpg">
+      <img src="images/image-product-4.jpg">
+    </div>
+  </div>
+
+  <div class="prod-info">
+    <h4 id="slogan">Sneaker Company</h4>
+
+    <h1 id="prod-title">Fall Limited Edition Sneakers</h1>
+  
+    <p id="prod-discription">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+    durable rubber outer sole, they’ll withstand everything the weather can offer.</p> 
+  
+    <h2 id="prod-price">125.00</h2><h3 id="discount">50%</h3>
+    <h5 id="prod-first-price">$250.00</h5>
+
+    <div class="prod-check-price">
+    <div class="prod-numb">
+      <button id="num-change" class="minus" type="button">-</button>
+      <div class="numb-info">1</div>
+      <button id="num-change" class="plus" type="button">+</button>
+    </div>
+
+    <button id="checkout" type="button"><img src="images/icon-cart-btn.svg" alt="Add to card">Add to cart</button>
+  </div>
+</div>
+
+</div>
+
+<div class="popup">
+  <div class="pop-main-img">
+  <img src="" id="pop-img" alt="Fall Limited Edition Sneakers">
+  <img src="images/icon-close.svg" id="pop-close" alt="Close">
+  <img src="images/icon-next.svg" id="pop-next" alt="Next">
+  <img src="images/icon-previous.svg" id="pop-prev" alt="Back">
+</div>
+
+  <div class="popup-thumbnail">
+    <div class="pop-thumb-indicators">
+    <img src="">
+    <img src="">
+    <img src="">
+    <img src="">
+  </div>
+  </div>
+</div>
+
+  <div class="attribution">
+    <h5 class="attr">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></h5>
+    <h5 class="attr">Coded by <a href="https://dribbble.com/sabapetriashvili" target="_blank">Saba Petriashvili</a></h5>
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
