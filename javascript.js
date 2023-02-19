@@ -189,6 +189,8 @@ mainImage.addEventListener('click', popUpGallery); //Makes main image zoomed
 
   checkList.insertAdjacentHTML('beforeend', checkedItem);
 
+  document.querySelector('.numb-info').innerHTML = 1;
+
  });
 
 
