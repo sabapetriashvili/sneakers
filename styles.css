@@ -24,6 +24,7 @@ body {
     max-width: 1440px;
     min-width: 375px;
     font-family: var(--font);
+    touch-action: manipulation;
 }
 
 /* start of Header */
