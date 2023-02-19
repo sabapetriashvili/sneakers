@@ -256,7 +256,7 @@ nav {
     background-color: black;
     z-index: -3;
     opacity: 0;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.5s;
 }
 
 /* media query menu */
@@ -323,7 +323,7 @@ nav {
         padding-top: 120px;
         z-index: 3;
         background-color: var(--white);
-        transition: all ease-in-out;
+        transition: all ease-in-out 0.3s;
     }
 
     .opened {
@@ -360,7 +360,7 @@ nav {
     }
 
     .wrap.active {
-        z-index: 1;
+        z-index: 2;
         opacity: 0.8;
     }
   }
